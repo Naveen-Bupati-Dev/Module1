@@ -1,0 +1,11 @@
+
+
+table,th,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+}

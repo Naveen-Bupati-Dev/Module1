@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="icon" type="image/x-icon" href= "./icon.png">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Rowsapn and colspan</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <section>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Profession</th>
+                    <th>job</th>
+                    <th>salary</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Naveen</td>
+                    <td class = "col" colspan="2">Software Engineer</td>
+                    <!-- <td>software job</td> -->
+                    <td>10,000</td>
+                    <td>Developer</td>
+                </tr>
+                <tr>
+                    <td>Karthik</td>
+                    <td rowspan="2" colspan="2" class = "col" >Associate Engineer</td>
+                    <!-- <td>Non-software-job</td> -->
+                    <td>20,000</td>
+                    <td rowspan="2">storage Engineer</td>
+                </tr>
+                <tr>
+                    <td>Bharath</td>
+                    <!-- <td>Non-software-job</td> -->
+                    <td>20,000</td>
+                    <!-- <td>Associate Engineer</td>
+                    <td>storage Engineer</td> -->
+                </tr>
+
+                <tr>
+                    <td  class = "row"   rowspan="3">Bharath</td>
+                    <td> Associate Engineer</td>
+                    <td class = "row" rowspan="3">Non software</td>
+                    <td rowspan="3">30,000</td>
+                    <td rowspan="3" class = "row"> Windows Administrator</td>
+                    <tr>
+                        <!-- <td>Bharath</td> -->
+                        <td> Associate Engineer</td>
+                        <!-- <td>Non software</td> -->
+                        <!-- <td>30,000</td> -->
+                        <!-- <td> Windows Administrator</td> -->
+                        <tr>
+                            <!-- <td>Bharath</td> -->
+                            <td> Associate Engineer</td>
+                            <!-- <td>Non software</td> -->
+                            <!-- <td>30,000</td> -->
+                            <!-- <td> Windows Administrator</td> -->
+                </tr>
+            </tbody>
+        </table>
+         
+    </section> <br/> <br/> <br/>
+
+
+    <h1>Formating tags</h1>
+
+<p> <b>Lorem ipsum</b>, dolor sit amet <strong>consectetur</strong>  adipisicing elit. Velit aperiam corporis <u><i>laborum </i></u>   aliquam fugit architecto quasi, nulla <s>placeat</s> <del>recusandae? </del> <mark>Velit dolor</mark>  eligendi nobis perferendis <em> ducimus.</em> Nostrum explicabo repellendus recusandae. H<sub>2</sub>O (a<sup>2</sup>+b<sup>2</sup>) =(a+b)<sup>2</sup> </p>
+
+<span><i style="font-size:24px" class="fa">&#xf19c;</i> Bank</span> ,
+<span><i style="font-size:24px" class="fa">&#xf00c;</i>Checked,</span> Battery is full
+<span><i style=" font-size:24px" class="fa">&#xf240;</i></span>,
+
+
+</body>
+</html>
+
+
+<!-- Red color indicates colspan
+lightgreen indicates rowspan
+
+table with rowspan and colspan -->
+

@@ -1,0 +1,16 @@
+
+table,tr,th,td{
+    border : 2px solid black;
+    border-collapse: collapse;
+}
+
+thead,tbody{
+    text-align: center;
+}
+.col{
+    background-color: red;;
+    color: white;
+}
+.row{
+    background-color: greenyellow;
+}

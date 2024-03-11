@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+     
+ }
+
+
+
+#navbar{
+    height:30px;
+    background-color:#1a0202;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: larger;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    
+}
+
+#logo{
+    color: #f08e04;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 80px;
+    color: rgb(237, 230, 230);
+}
+
+input{
+    height: 18px;
+    font-weight: 200px;
+    padding-left: 5px;
+   
+    
+
+}
+button{
+    background-color: orange;
+    margin-left: 10px;
+    padding: 1.9px;
+    margin-left: -8px;
+}
+/* button:hover {background-color: orange;} */
+
+body {
+    background-color: #71ebe5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+ 
+.dairycontainer {
+    width: 100%;
+    margin: auto;
+}
+
+.imgdiar {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.dpcont {
+    width: 80%;
+    margin: auto; 
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.dpcont2 {
+    width: 50%;
+    margin: 30px;
+    /* border: 1px solid red; */
+    
+     
+    
+}
+
+#dpimg {
+    object-fit: contain;
+    width: 100%;
+    
+}
+
+h2 {
+    padding-top: 150px;
+    margin: 10px;
+    text-align: start;
+    font-family: cursive;
+}
+
+p {
+    text-align: justify;
+    font-family: cursive;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#ctimg {
+    width: 100%;
+    height: auto;
+}
+
+.para {
+    font-family: cursive;
+    font-size: larger;
+}
+
+.footer {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#ftimg {
+    width: 100%;
+    height: 160px;
+}
+
+/*  loginpage style */
+ 
+  
