@@ -201,6 +201,9 @@ why we use forms
 what is the purpose of iframes---- we can show shome embedded links to diaplay another webpage in our webpage..
  anchor tag by using mailing and calling functionality to navigate rom one page to another page we use anchor tags..
 
+
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> ---for favicon icon
+
 Git/Github
 
 create github account and install git locallay on your laptop/pc
