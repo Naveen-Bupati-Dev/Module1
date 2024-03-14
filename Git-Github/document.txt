@@ -1,0 +1,103 @@
+Git/Github
+-------------------------------------------------------------------------------------------------------
+
+create github account and install git locallay on your laptop/pc
+
+next we have to configure git  by using below commands
+we have to configure in root directory
+git config --global user.name "Naveen Bupati"
+
+--to configure username
+
+git config --global user.email "naveenbupati22@gmail.com"
+
+--to configure email
+
+git config  --list to come out vim editor from it we should should use :q enter 
+
+git clone--link to clone a repo from github remote repo to local repo
+
+cd change directory to that folder
+
+ls --list of files to check
+
+ls -a to check to hidden files we use
+
+to check the status of code we use --git status
+
+when we add new file git changes it status as untrackd file untill it get added and commit
+
+there are four types of git status we can see
+
+1.untracked--new files that git doesn't yet track
+2.modified -- changed but not commited
+3.staged -- when file is added but not commited is known as staged file is ready to be committed
+4.unmodified--after commiting file it goes to  unchanged no changes are made
+
+git add-- it adds new and changed files from our woking directory to git staging area
+git add filename and add only one file
+git add. add all files present in folder
+
+git commit -m "added-new-file"
+
+git push origin main
+--push command is uesd to upload local repo content to remote repo
+
+to copy from one folder to another folder using command
+cp -r ./HTML ./Module1
+cp -r sourcepath to destination path
+
+
+ (use "git restore --staged <file>..." to unstage)
+ 
+ git push -u origin master
+Permission to (repo.git) denied
+fatal unable to access the requested url returned error 403
+
+for this error if we have multiple accounts on github 
+our git will store previous github crdentials in windows crdentials manager
+
+we to check in that and remove old credentials
+
+*if we want to create a folder and push code from local-machine to remote github follow below
+
+create folder
+add files 
+and go to that directory or folder using cd command
+
+1. git init --it will initializes an empty repository in local-machine
+2. now git add . and git commit -m "add"
+3. now add the remote origin link ----git remote add origin "link" link refers to create a new repo in
+   github and add the url here
+4. git remote-v ---to check the remote repo added or not
+5. git branch ---to check branch name 
+6. git branch -M main to change from amster to main
+7. git push -u origin main origin --refers to name of the remote repository
+8. here -u means upstream setting for next push purpose for next time if we push we use just "git push"  instead of ---git push origin main 
+
+
+ 
+Git branch
+-----------------------------------------------------------------
+1.to check branch git branch
+2.to create new brnach git branch [new-branch-name] 
+3.to create a new branch and checkout to it git checkout -b [new-brnach-name]
+4.to checkout from one branch to another branch use git checkout [branch-name]
+5.to merge or to add two branches they are two ways raise pull requests in github (or) use git merge [branch-name] 
+6.to see differnces we use git diff [branch-name]
+7. git pull ---comand is to download the repos from github to local means remote repo to local repo
+8.git conflicts are the conflits that arises when there is a change in samefile or in a same line of a code to resolve git conflicts developer need to review the code and decidewhic is to be there in code.
+9. to delete branch git branch -d [brnach-name]
+
+
+
+
+To use directly git and github from vscode 
+--------------------------------------------------------------------
+1.click on the branch below in vs code
+2.next click on create new branch from and choose the brnach which you want to create
+3.name your brach and press enter
+4.and in the down click on publish near branch it will push to github
+5.if we create a new branch from github then if we wnat to see the changes in our local machine then we need to use git fetch command. 
+6.if we want to push directly without usings commnads then we can use source control in vscode and commit changes with a message thrn it will reflect in github
+

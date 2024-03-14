@@ -256,6 +256,13 @@ cp -r sourcepath to destination path
  (use "git restore --staged <file>..." to unstage)
 
 
+day8 and day9 github and git topics.
+--------------------------------------------------------
+1.click on the brnach below in vs code
+2.next click on create new brnach from and choose the brnach which you want to create
+3.name your brach and press enter
+4. and in the down click on publish near branch it will push to github
+5. if we create a new branch from github then if we wnat to see the changes in our local machine then we need to use git fetch command. 
 
 
 
