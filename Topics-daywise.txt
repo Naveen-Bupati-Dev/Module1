@@ -203,7 +203,10 @@ what is the purpose of iframes---- we can show shome embedded links to diaplay a
 
 
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> ---for favicon icon
+---------------------------------------------------------------------------------------------------
 
+day-8 and day-9
+-------------------------------------------------------------
 Git/Github
 
 create github account and install git locallay on your laptop/pc
@@ -255,20 +258,75 @@ cp -r sourcepath to destination path
 
  (use "git restore --staged <file>..." to unstage)
 
+------------------------------------------------------------------------------------------------------
+day-10 
+-------------------
 
- 
-day8 and day9 github and git topics.
--------------------------------------------------------- 
-1.click on the brnach below in vs code
-2.next click on create new brnach from and choose the brnach which you want to create
+To use directly git and github from vscode 
+--------------------------------------------------------------------
+1.click on the branch below in vs code
+2.next click on create new branch from and choose the brnach which you want to create
 3.name your brach and press enter
-4. and in the down click on publish near branch it will push to github
-5. if we create a new branch from github then if we wnat to see the changes in our local machine then we need to use git 
-6. by using source control we can directly commit and push to github without any commands. by using source control in vscode
+4.and in the down click on publish near branch it will push to github
+5.if we create a new branch from github then if we wnat to see the changes in our local machine then we need to use git fetch command. 
+6.if we want to push directly without usings commnads then we can use source control in vscode and commit changes with a message thrn it will reflect in github
+7. what is meant by deployment and
+8. what is meant by hosting ..
+
+deployment ---> the process to moving code from development to production (or) live is meant by deployment on a user's computer or a mobile by ci-cd tools
+
+what is hosting ----> An example of hosting is a company providing server space and services to store and make websites accessible on the internet.
+
+-----------------------------------------------------------------------------------------------------
+
+day-11
+----------------------------------
+
+Css -(cascading style sheets)
+
+1.what is meant by cascading --- multiple css rules applying  to an html document. ia known as caascading
+2.Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML 
+3. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+
+thre types of styling
+-------------------------
+Inline
+Internal and
+External
+
+Specification
+-----------------
+Inline > Internal > External
+
+Inline has high priority
+beacuse code exectuin starts from body element in html
+
+if inline is not there next priority goes to Internal
+
+---------------------------------------------------
+Selectors in css -->A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them
+
+five types of Selectors
+-------------------
+Simple/Basic
+Combinators
+Attribute Selectors
+Pseudo class Selectors
+Pseudo element Selectors
 
 
+---------------------
+
+1.Simple selectors are-->
+
+i.tag/element selector(tag-name)
+ii.class selector(.)
+iii.id selector(#)
+iv.grouping selector(grouping with tagname/classname/id)
+v.universal selector(*)
 
 
-
-
+CSS specificity rule
+Below are the order of specificity rule which has precedence respectively: 1) Inline style: Inline style has highest priority among all. 2) Id Selector: It has second highest priority. 3) Classes, pseudo-classes and attributes: These selectors has lowest priority.
+----------------------------
 

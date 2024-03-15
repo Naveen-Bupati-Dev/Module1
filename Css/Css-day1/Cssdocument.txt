@@ -1,0 +1,51 @@
+day1
+-----------------------------------
+
+Css -(cascading style sheets)
+
+1.what is meant by cascading --- multiple css rules applying  to an html document. ia known as caascading
+2.Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML 
+3. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+
+thre types of styling
+-------------------------
+Inline
+Internal and
+External
+
+Specification
+-----------------
+Inline > Internal > External
+
+Inline has high priority
+beacuse code exectuin starts from body element in html
+
+if inline is not there next priority goes to Internal
+
+---------------------------------------------------
+Selectors in css -->A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them
+
+five types of Selectors
+-------------------
+Simple/Basic
+Combinators
+Attribute Selectors
+Pseudo class Selectors
+Pseudo element Selectors
+
+
+---------------------
+
+1.Simple selectors are-->
+
+i.tag/element selector(tag-name)
+ii.class selector(.)
+iii.id selector(#)
+iv.grouping selector(grouping with tagname/classname/id)
+v.universal selector(*)
+
+
+
+CSS specificity rule
+Below are the order of specificity rule which has precedence respectively: 1) Inline style: Inline style has highest priority among all. 2) Id Selector: It has second highest priority. 3) Classes, pseudo-classes and attributes: These selectors has lowest priority.
+----------------------------
