@@ -1,0 +1,331 @@
+Html-day1
+..................
+1.heading tags :
+<h1> to </h6>
+
+2.paragraph tag :
+<p></p>
+
+3.preformatte tags : 
+<pre>naveen
+		kumar 
+				goud
+</pre>
+
+4.break and underline tags:
+<br/><hr/>
+
+5.Anchor tags for navigation
+two types of paths Absolute and relative
+
+<a href = "https://www.google.com" target = "_blank"> <a/>--absolute
+
+<a href = "./image.JPEG" target = "_blank">
+<a/>-- relative
+
+<a href = "../image.JPEG"><a/> one dot is for to come back from current file and two dots is for to come back from folder.
+
+
+6. <marquee direction = "right">Hello World!</marquee>
+	marquee tag is used to scroll or float on a webpage
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Html-day2
+...............................
+7. image tag is self closing tag...
+
+<img height = "100" width="100" title="image title on hover" src="www.image.com" alt="image"/>--absolute-imagepath
+<img height = "100" width="100" title="image title on hover" src="./image.PNG" alt="image"/>--relative-imagepath
+
+8.lists:
+lists are used to display content in a list format on a webpage
+lists are of three types:
+a.Orderlists <ol><li><li/><ol/>
+b.Unorderdlists <ul><li><li/><ul/>
+c.Discription/defination 
+<dl>
+<dt><dt/>
+<dd></dd>
+</dl>
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Html-day3
+............................................
+8.today discuseed about vscode and some extensions
+they are 
+1.live server
+2.Prettier
+3.code Runner
+4.Emmet Live
+5.Es Lint
+6.Live Prview
+
+9.And dicussed about download attribute in anchor tag
+
+<a href="../assests/car.jpeg/" download = "newcar" >download me</a>
+
+10.Discussed about symantic and non semantic tags :
+ 
+Semantic and Non-semantic
+-----------------------------------------------------------
+A semantic element clearly describes its meaning to both the browser and the developer. 
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content. 
+Examples of semantic elements: <form> , <table> , and <article> - Clearly defines its content.
+
+
+Non-semantic:
+----------------------
+ <div>
+<span></span>
+</div>
+
+Semantic:
+---------------------
+<Header>
+<nav></nav>
+</Header>
+<aside>Side part </aside>
+<main> <article><article> <a> <p></p> </a> </main>
+<section>  Section-content </Section>
+<footer>  contact-us </fotter>
+
+11.Tables:
+ 
+<section>
+
+<table>
+<caption> <h1> Mytable </h1> </caption>
+
+<thead>
+<tr>
+<th>Name</th>
+<th>Profession</th>
+<th>Role</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td> Naveen kumar </td>
+<td>  Software developer </td>
+<td> Backend developer </td>
+</tr>
+</tbody>
+
+
+<tfooter>
+<tr>
+<td>contactus</td>
+<td>contactus</td>
+<td>contactus</td>
+</tr>
+</tfooter>
+
+</table>
+
+</section>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Html day-4
+............................
+topics:
+
+12. About rowspan and colspan in tables <rowspan> for rows and <colspan> for columns to merge two or more columns or rows <rowsapn and colspan> both we can use to merge both rows and columns in same
+
+<i>non-semantic <em> semantic
+<b>nonsemantic  <strong>semantic
+<s>non semantic <del>semantic
+<mark> semantic
+<u>non sematic
+
+13. iframes -- An HTML iframe is used to display a web page within a web page.
+14. favicons
+15. formatting tags like <strong><b> <u><s><del><mark> <em>... tags
+16. fontawsome icons
+17.block and inline
+block - An block element will always start on a new line.
+inline- An inline element does not start on a new line.
+block eg:(<p>,<div>,<nav>,<table>,<vedio>) inline eg:(<a>,<img>,<input>) --<span> takes An inline element only takes up as much width as necessary.
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Html-day5:
+........................................................................................
+
+1.calling and mailing functionalities using anchor tag
+2.figure tag
+3.details and summary tag
+4.html entities,symbols and emojis << 123 emojis
+5.audio and video tag.
+6.tables with api response.
+
+ <a href="mailto:naveenbhupathi22@gmail.com">mail me</a>
+ <a href="tel:9603918990">contact me</a>
+try whatsapp integration using anchor tag
+
+<details>
+ <summary>
+    Image
+            </summary>
+            <img src="./icon.png" height="200" width="300" alt="imageicon"/>
+
+accordians in html can be acheived using details tag in html
+
+
+to give both image and caption we use figure-tag in html
+------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+Html-day6
+....................................................
+
+1.revison of Html topic upto day5
+
+2.fieldset legend attributes 
+the <abbr tittle="hyper text markup language>HTML</abbr>
+<bdo dir="rtl">bidirectional over ride
+to display the content in reverse
+
+3.About forms
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Html-day7
+----------------------------------------------
+ <textarea rows=3 cols 3 to increse height and width we use label atribute in form elemnets in optgroup in select tag  in forms action attribute will route to the page after user login 
+with jwt tokens if we use the functionality in input type = submit we should use formaction="path to redirect"
+
+difference between datalist and option element---
+< input list="idname" />
+<option value id="idname"
+
+
+global attributes and local attributes in html
+what are attributes
+what is inline and block elemnts
+what is the purpose of tables
+what is doctype in html
+why we use forms
+what is the purpose of iframes---- we can show shome embedded links to diaplay another webpage in our webpage..
+ anchor tag by using mailing and calling functionality to navigate rom one page to another page we use anchor tags..
+
+
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> ---for favicon icon
+---------------------------------------------------------------------------------------------------
+
+day-8 and day-9
+-------------------------------------------------------------
+Git/Github
+
+create github account and install git locallay on your laptop/pc
+
+next we have to configure git  by using below commands
+we have to configure in root directory
+git config --global user.name "Naveen Bupati"
+
+--to configure username
+
+git config --global user.email "naveenbupati22@gmail.com"
+
+--to configure email
+
+git config  --list to come out vim editor from it we should should use :q enter 
+
+git clone--link to clone a repo from github remote repo to local repo
+
+cd change directory to that folder
+
+ls --list of files to check
+
+ls -a to check to hidden files we use
+
+to check the status of code we use --git status
+
+when we add new file git changes it status as untrackd file untill it get added and commit
+
+there are four types of git status we can see
+
+1.untracked--new files that git doesn't yet track
+2.modified -- changed but not commited
+3.staged -- when file is added but not commited is known as staged file is ready to be committed
+4.unmodified--after commiting file it goes to  unchanged no changes are made
+
+git add-- it adds new and changed files from our woking directory to git staging area
+git add filename and add only one file
+git add. add all files present in folder
+
+git commit -m "added-new-file"
+
+git push origin main
+--push command is uesd to upload local repo content to remote repo
+
+to copy from one folder to another folder using command
+cp -r ./HTML ./Module1
+cp -r sourcepath to destination path
+
+
+ (use "git restore --staged <file>..." to unstage)
+
+------------------------------------------------------------------------------------------------------
+day-10 
+-------------------
+
+To use directly git and github from vscode 
+--------------------------------------------------------------------
+1.click on the branch below in vs code
+2.next click on create new branch from and choose the brnach which you want to create
+3.name your brach and press enter
+4.and in the down click on publish near branch it will push to github
+5.if we create a new branch from github then if we wnat to see the changes in our local machine then we need to use git fetch command. 
+6.if we want to push directly without usings commnads then we can use source control in vscode and commit changes with a message thrn it will reflect in github
+7. what is meant by deployment and
+8. what is meant by hosting ..
+
+deployment ---> the process to moving code from development to production (or) live is meant by deployment on a user's computer or a mobile by ci-cd tools
+
+what is hosting ----> An example of hosting is a company providing server space and services to store and make websites accessible on the internet.
+
+-----------------------------------------------------------------------------------------------------
+
+day-11
+----------------------------------
+
+Css -(cascading style sheets)
+
+1.what is meant by cascading --- multiple css rules applying  to an html document. ia known as caascading
+2.Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML 
+3. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+
+thre types of styling
+-------------------------
+Inline
+Internal and
+External
+
+Specification
+-----------------
+Inline > Internal > External
+
+Inline has high priority
+beacuse code exectuin starts from body element in html
+
+if inline is not there next priority goes to Internal
+
+---------------------------------------------------
+Selectors in css -->A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them
+
+five types of Selectors
+-------------------
+Simple/Basic
+Combinators
+Attribute Selectors
+Pseudo class Selectors
+Pseudo element Selectors
+
+
+---------------------
+
+1.Simple selectors are-->
+
+i.tag/element selector(tag-name)
+ii.class selector(.)
+iii.id selector(#)
+iv.grouping selector(grouping with tagname/classname/id)
+v.universal selector(*)
+
+
+CSS specificity rule
+Below are the order of specificity rule which has precedence respectively: 1) Inline style: Inline style has highest priority among all. 2) Id Selector: It has second highest priority. 3) Classes, pseudo-classes and attributes: These selectors has lowest priority.
+----------------------------

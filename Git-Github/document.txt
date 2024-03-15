@@ -90,14 +90,14 @@ Git branch
 9. to delete branch git branch -d [brnach-name]
 
 
+By using vs code
+--------------------------------------------------------
+1.by using vs-code we can commit and push directly to github without using any commands by source control in vs-code
+2.if we want to create any new branch from vs code we can create using branch name in below vs code
 
 
-To use directly git and github from vscode 
---------------------------------------------------------------------
-1.click on the branch below in vs code
-2.next click on create new branch from and choose the brnach which you want to create
-3.name your brach and press enter
-4.and in the down click on publish near branch it will push to github
-5.if we create a new branch from github then if we wnat to see the changes in our local machine then we need to use git fetch command. 
-6.if we want to push directly without usings commnads then we can use source control in vscode and commit changes with a message thrn it will reflect in github
+
+
+
+
 
